@@ -9,7 +9,7 @@
 title: Concept Curacao
 email: contact@conceptcuracao.com
 description:
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "http://conceptcuracao.com" # the subpath of your site, e.g. /blog
 url: "http://conceptcuracao.com" # the base hostname & protocol for your site
 
 # Build settings
