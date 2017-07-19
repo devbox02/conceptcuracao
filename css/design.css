@@ -169,6 +169,10 @@ h1.block {
 #services-one a {
     font-size: inherit;
 }
+#services-two {
+    background-color: #fff;
+    height: 500px;
+}
 .overlay:hover , .overlay:focus {
     position: absolute;
     top: 0;
@@ -211,7 +215,28 @@ h2.block-four {
     line-height: 20px;
     padding: 0 5px;
 }
-
+/* Panel */
+.panel {
+    border-radius: 2px;
+}
+.panel-primary>.panel-heading {
+    background-color: #324376;
+    border-color: transparent;
+    color: white;
+    padding: 5px 10px;
+}
+.panel-heading h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+/*Pricing Content*/
+.pricing-content li {
+  color: #888;
+  font-size: 12px;
+  padding: 7px 15px;
+  border-bottom: solid 1px #f5f9e7;
+}
 /* Contact */
 #contact {
     background-color: #324376;
@@ -256,6 +281,130 @@ h2.block-four {
     line-height: 20px;
     padding: 0 5px;
 }
+
+/***
+Pricing table
+***/
+.pricing {
+  position: relative;
+  margin-bottom: 15px;
+  border: 2px solid #324376;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.pricing-active {
+  border: 3px solid #324376;
+  margin-top: -10px;
+}
+
+.pricing:hover h4 {
+  color: #324376;
+}
+
+.pricing-head {
+  text-align: left;
+}
+
+.pricing-head h3,
+.pricing-head h4 {
+  margin: 0;
+  padding-left: 10px;
+  line-height: normal;
+}
+
+.pricing-head-text h3,
+.pricing-head-text h4 {
+  margin: 0;
+  padding-left: 10px;
+  line-height: normal;
+}
+
+.pricing-head h3 span,
+.pricing-head h4 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.pricing-head-text h3 span,
+.pricing-head-text h4 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.pricing-head h3 {
+  font-weight: 300;
+  color: #fafafa;
+  padding: 12px 10px;
+  font-size: 27px;
+  background: #324376;
+
+}
+
+.pricing-head h4 {
+  color: #344055;
+  padding: 5px 10px;
+  font-size: 54px;
+  font-weight: 300;
+  text-align: right;
+  background: #f8f8f8;
+  border-bottom: solid 1px #f5f9e7;
+}
+
+.pricing-head-text h4 {
+  color: #344055;
+  padding: 5px 10px;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: right;
+  background: #f8f8f8;
+  border-bottom: solid 1px #f5f9e7;
+}
+
+.pricing-head h4 i {
+  top: -8px;
+  font-size: 28px;
+  font-style: normal;
+  position: relative;
+}
+
+.pricing-head h4 span {
+  top: -10px;
+  font-size: 14px;
+  font-style: normal;
+  position: relative;
+}
+
+.pricing-head-text h4 span {
+  top: -10px;
+  font-size: 14px;
+  font-style: normal;
+  position: relative;
+}
+
+/*Pricing Content*/
+.pricing-content li {
+  color: #324376;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-bottom: solid 1px #f5f9e7;
+}
+
+/*Pricing Footer*/
+.pricing-footer {
+  color: #777;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 10px 20px;
+}
+.btn {
+    border-radius: 2px;
+}
+
 @media (min-width: 1600px) {
     .container {
         width: 1600px;
