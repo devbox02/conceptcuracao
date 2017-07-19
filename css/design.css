@@ -259,7 +259,7 @@ h2.block-four {
 
 @media(max-width:1366px) {
     #spacing {
-    height: 275px;
+    height: 320px;
     }
     #services-one {
     height: 500px;
@@ -503,7 +503,7 @@ h2.block-four {
     font-size: 18px;
     }
     #spacing {
-    height: 550px;
+    height: 500px;
     }
     #space {
     height: 100px;
