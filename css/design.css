@@ -257,13 +257,13 @@ h2.block-four {
     padding: 0 5px;
 }
 
-@media(max-width:1366px) {/*
+@media(max-width:1366px) {
     #spacing {
     height: 320px;
     }
     #services-one {
     height: 500px;
-    }*/
+    }
 }
 @media(max-width:1280px) {
     #spacing {
@@ -579,3 +579,4 @@ h2.block-four {
     .container {
         width: 1900px;
     }
+}
