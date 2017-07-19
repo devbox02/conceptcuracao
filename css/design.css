@@ -257,13 +257,13 @@ h2.block-four {
     padding: 0 5px;
 }
 
-@media(max-width:1366px) {
+@media(max-width:1366px) {/*
     #spacing {
     height: 320px;
     }
     #services-one {
     height: 500px;
-    }
+    }*/
 }
 @media(max-width:1280px) {
     #spacing {
@@ -427,7 +427,7 @@ h2.block-four {
     }
     .head-one {
     padding-top: 250px;
-    }
+    }/*
     #page-one {
     height: 300px;
     padding: 10px 0; 
@@ -435,7 +435,7 @@ h2.block-four {
     #page-two {
     height: 300px;
     padding: 10px 0; 
-    }
+    }*/
     #spacing {
     height: 500px;
     }
