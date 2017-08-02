@@ -1,25 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
 h1, h2, h3, h4, h5 {
     color: #324376;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-h1 {
-    font-size: 8em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-h2 {
-    font-size: 2.5em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-h3 {
-    font-size: 2.5em;
-    font-weight: 700;
-    margin-bottom: 5px;
-    color: white;
 }
 a, li, p {
     font-size: 20px;
@@ -36,65 +20,186 @@ body {
     padding-right: 0px;
     padding-left: 0px;
 }
+.brand-logo {
+    width: 15em;
+    margin-top: -0.8em;
+}
 .sides {
     padding: 0px 25px;
 }
 .capped {
     max-width: 1200px;
 }
-.brand-logo {
-    width: 15em;
-    margin-top: -0.8em;
+.contact {
+background: url('/images/contact-100.jpg') no-repeat top center scroll;
 }
-.block {
-    padding: 10px 0px;
+.home {
+background: url('/images/D00.jpg') no-repeat top center scroll;
 }
-.block-one {
-    color: #324376;
-    position: relative;
-    margin-bottom: -25px;
-    margin-left: 10px;
+.marketing {
+background: url('/images/marketing-100.jpg') no-repeat top center scroll;
 }
-.block-two {
-    margin-top: -20px;
-    position: relative;
+.portfolio {
+background: url('/images/portfolio-100.jpg') no-repeat center center scroll;
 }
-.block-four {
-    margin-top: 10px;
-    position: relative;
+.webdesign {
+background: url('/images/D01.jpg') no-repeat bottom center scroll;
+}
+#blog-head {
+background: url('/images/blog-100.jpg') no-repeat top center scroll;
+background-color: #fff;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+height: 50vh;
+padding: 50px 0;
+}
+#blog-title{
+margin-top: -75px;
+padding: 0px 0px 10px;
+}
+#blog-body {
+padding: 20px 0px;
+}
+#blog-body h1{
+font-size: 36px;
+font-weight: 700;
+padding: 0px 0px 5px;
+text-transform: uppercase; 
+}
+#blog-body h2{
+font-size: 24px;
+font-weight: 600;
+padding: 5px 0px;
+text-transform: uppercase;  
+}
+#blog-body h3{
+font-size: 22px;
+font-weight: 400;
+padding: 5px 0px;
+color: #324376;
+}
+#blog-body p {
+font-size: 20px;
+font-weight: 400;
+padding: 0px 0px;
+line-height: 1.4; 
+}
+#blog-end {    
+}
+#blog-body h4{
+font-size: 32px;
+font-weight: 700;
+margin: 0px 0px 0px 10px;
+}
+#blog-body h5{
+font-size: 64px;
+font-weight: 700;
+margin: 0px 0px 0px 0px;
+}
+#page-head {
+background-color: #fff;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+height: 50vh;
+padding: 50px 0;
+}
+#page-title{
+margin-top: -75px;
+padding: 0px 0px 10px;
+}
+#page-body {
+padding: 5px 0px 5px;
+}
+#page-body h1{
+font-size: 36px;
+font-weight: 700;
+padding: 0px 0px 5px;
+text-transform: uppercase; 
+}
+#page-body h2{
+font-size: 24px;
+font-weight: 600;
+padding: 5px 0px;
+text-transform: uppercase;  
+}
+#page-body h3{
+font-size: 22px;
+font-weight: 400;
+padding: 5px 0px;
+color: #324376;
+}
+#page-body p {
+font-size: 20px;
+font-weight: 400;
+padding: 0px 0px;
+line-height: 1.4; 
+}
+#page-body h4{
+font-size: 32px;
+font-weight: 700;
+margin: 0px 0px 0px 10px;
+}
+#page-body h5{
+font-size: 64px;
+font-weight: 700;
+margin: 0px 0px 0px 0px;
+}
+.red {
+background-color: #f2545b;
+padding: 0px 10px;
+position: relative;
+color: #fff;
 }
 .blue {
-    background-color: #324376;
-    padding: 0px 10px;
-    color: white;
+background-color: #324376;
+padding: 0px 5px;
+color: white;
 }
-.white {
-    background-color: #f2545b;
-    padding: 0px 10px;
-    position: relative;
-    color: #fff;
+.btn-default {
+background-color: #324376;
+border-radius: 0px;
+color: white;
+font-weight: 400;
+text-transform: uppercase;
 }
-.block-three {
-    margin-top: -100px;
-    margin-left: 10px;
-    position: relative
+.btn-default:hover{
+border-radius: 0px;
+color: #324376;
 }
-.block-one {
-    position: relative;
-    margin-bottom: -25px;
-    margin-left: 10px;
+.well {
+border-radius: 0px;
+background-color: #f8f8f8;
 }
-.thin {
-    font-weight: 700;
+.well h2{
+margin-top: 0px;
 }
-h1.block {
-    color: #fff;
+.form-control {
+border-radius: 0px;
 }
-.align-right {
-    text-transform: capitalize;
+.services {
+padding: 0px 0px 40px !important; 
 }
-
-/* Navigation */
+.clients {
+padding: 20px 0px 20px !important;
+}
+.overlay:hover, .overlay:focus {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.90;
+    transition: 0.5s ease;
+}
+/*** 
+Navigation 
+***/
 .navbar {
     background-color: #fff;
     border: none;
@@ -119,173 +224,6 @@ h1.block {
     border-bottom: 3px solid #324376;
     background-color: white;
 }
-
-/* Home */
-#home {
-    background: url('/images/D00.jpg') no-repeat top center scroll;
-    background-color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 500px;
-    padding: 50px 0;
-}
-#page-one {
-    background: url('/images/D01.jpg') no-repeat top center scroll;
-    background-color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 500px;
-    padding: 50px 0;
-}
-#page-two {
-    background: url('/images/D02.jpg') no-repeat top center scroll;
-    background-color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 500px;
-    padding: 50px 0;
-}
-.head-one {
-    padding-top: 380px;
-}
-#spacing {
-    background-color: white;
-    height: 350px;
-}
-#spacing2 {
-    background-color: white;
-    height: 350px;
-}
-#spacing-two {
-    background-color: white;
-    height: 100px;
-}
-#services-one {
-    background-color: #fff;
-    height: 500px;
-}
-#services-one a {
-    font-size: inherit;
-}
-#services-two {
-    background-color: #fff;
-    height: 600px;
-}
-.overlay:hover , .overlay:focus {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.75;
-    transition: 0.5s ease;
-}
-#space {
-    height: 150px;
-    background-color: #324376;
-}
-h2.block-two {
-    font-size: 4em;
-}
-h3.block-three {
-    font-size: 2em;
-}
-h2.block-four {
-    font-size: 4em;
-}
-.block-one-page {
-    margin-left: 10px;
-}
-
-/* Clients */
-#clients {
-    height: 125px;
-}
-#clients ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#clients li {
-    display: inline;
-    line-height: 20px;
-    padding: 0 5px;
-}
-/* Panel */
-.panel {
-    border-radius: 2px;
-}
-.panel-primary>.panel-heading {
-    background-color: #324376;
-    border-color: transparent;
-    color: white;
-    padding: 5px 10px;
-}
-.panel-heading h4 {
-    color: white;
-    font-weight: 700;
-    font-size: 1.5em;
-}
-/*Pricing Content*/
-.pricing-content li {
-  color: #888;
-  font-size: 12px;
-  padding: 7px 15px;
-  border-bottom: solid 1px #f5f9e7;
-}
-/* Contact */
-#contact {
-    background-color: #324376;
-    padding: 20px 0px;
-    color: white;
-}
-#contact p {
-    color: white;
-}
-#contact h2 {
-    color: white;
-    font-size: 3em;
-    text-transform: uppercase;
-}
-#contact h3 {
-    font-size: 2em;
-    text-transform: uppercase;
-}
-
-/* Footer */
-#footer {
-    background-color: #fff;
-    padding: 20px 0px;
-}
-#footer p {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-#footer a {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-#footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#footer li {
-    display: inline;
-    line-height: 20px;
-    padding: 0 5px;
-}
-
 /***
 Pricing table
 ***/
@@ -311,21 +249,21 @@ Pricing table
 }
 
 .pricing-head h3,
-.pricing-head h4 {
+.pricing-head h6 {
   margin: 0;
   padding-left: 10px;
   line-height: normal;
 }
 
 .pricing-head-text h3,
-.pricing-head-text h4 {
+.pricing-head-text h6 {
   margin: 0;
   padding-left: 10px;
   line-height: normal;
 }
 
 .pricing-head h3 span,
-.pricing-head h4 span {
+.pricing-head h6 span {
   display: block;
   margin-top: 5px;
   font-size: 14px;
@@ -333,7 +271,7 @@ Pricing table
 }
 
 .pricing-head-text h3 span,
-.pricing-head-text h4 span {
+.pricing-head-text h6 span {
   display: block;
   margin-top: 5px;
   font-size: 14px;
@@ -342,14 +280,14 @@ Pricing table
 
 .pricing-head h3 {
   font-weight: 300;
-  color: #fafafa;
-  padding: 12px 10px;
+  color: #fafafa !important;
+  padding: 12px 10px !important;
   font-size: 27px;
   background: #324376;
 
 }
 
-.pricing-head h4 {
+.pricing-head h6 {
   color: #344055;
   padding: 5px 10px;
   font-size: 54px;
@@ -359,7 +297,7 @@ Pricing table
   border-bottom: solid 1px #f5f9e7;
 }
 
-.pricing-head-text h4 {
+.pricing-head-text h6 {
   color: #344055;
   padding: 5px 10px;
   font-size: 50px;
@@ -369,27 +307,29 @@ Pricing table
   border-bottom: solid 1px #f5f9e7;
 }
 
-.pricing-head h4 i {
+.pricing-head h6 i {
   top: -8px;
   font-size: 28px;
   font-style: normal;
   position: relative;
 }
 
-.pricing-head h4 span {
+.pricing-head h6 span {
   top: -10px;
   font-size: 14px;
   font-style: normal;
   position: relative;
 }
 
-.pricing-head-text h4 span {
+.pricing-head-text h6 span {
   top: -10px;
   font-size: 14px;
   font-style: normal;
   position: relative;
 }
-
+.pricing-color {
+    background:#f8f8f8;
+}
 /*Pricing Content*/
 .pricing-content li {
   color: #324376;
@@ -398,17 +338,54 @@ Pricing table
   border-bottom: solid 1px #f5f9e7;
 }
 
-/*Pricing Footer*/
-.pricing-footer {
-  color: #777;
-  font-size: 16px;
-  line-height: 25px;
-  padding: 10px 10px 20px;
+/*** 
+Contact 
+***/
+#contact {
+    background-color: #324376;
+    padding: 20px 0px;
+    color: white;
 }
-.btn {
-    border-radius: 2px;
+#contact p {
+    color: white;
 }
-
+#contact h2 {
+    color: white;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+#contact h3 {
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+/*** 
+Footer 
+****/
+#footer {
+    background-color: #fff;
+    padding: 20px 0px;
+}
+#footer p {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#footer a {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#footer li {
+    display: inline;
+    line-height: 20px;
+    padding: 0 5px;
+}
 @media (min-width: 1600px) {
     .container {
         width: 1600px;
@@ -418,3 +395,30 @@ Pricing table
         width: 1900px;
     }
 }
+@media(max-width:440px) {
+    #blog-body h4{
+    font-size: 24px;
+    }
+    #blog-body h5{
+    font-size: 48px;
+    }
+    #page-body h4{
+    font-size: 24px;
+    }
+    #page-body h5{
+    font-size: 48px;
+    }
+}
+@media(max-width:320px) {
+    #page-body h5{
+    font-size: 44px;
+    }
+    #page-body h5{
+    font-size: 44px;
+    }
+}
+
+
+
+
+
