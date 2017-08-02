@@ -7,3 +7,7 @@ url: "http://conceptcuracao.com" #
 
 # Build settings
 markdown: kramdown
+
+# Gems
+gems:
+  - amp-jekyll
