@@ -395,30 +395,3 @@ Footer
         width: 1900px;
     }
 }
-@media(max-width:440px) {
-    #blog-body h4{
-    font-size: 24px;
-    }
-    #blog-body h5{
-    font-size: 48px;
-    }
-    #page-body h4{
-    font-size: 24px;
-    }
-    #page-body h5{
-    font-size: 48px;
-    }
-}
-@media(max-width:320px) {
-    #page-body h5{
-    font-size: 44px;
-    }
-    #page-body h5{
-    font-size: 44px;
-    }
-}
-
-
-
-
-
