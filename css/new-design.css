@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+#blog-head {
+background: url('/images/blog-100.jpg') no-repeat top center scroll;
+background-color: #fff;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+height: 50vh;
+padding: 50px 0;
+}
+#blog-title{
+margin-top: -75px;
+padding: 0px 0px 10px;
+}
+#blog-body {
+padding: 20px 0px;
+}
+#blog-body h1{
+font-size: 36px;
+font-weight: 700;
+padding: 0px 0px 5px;
+text-transform: uppercase; 
+}
+#blog-body h2{
+font-size: 24px;
+font-weight: 600;
+padding: 5px 0px;
+text-transform: uppercase;  
+}
+#blog-body h3{
+font-size: 22px;
+font-weight: 400;
+padding: 5px 0px;
+color: #324376;
+}
+#blog-body p {
+font-size: 20px;
+font-weight: 400;
+padding: 0px 0px;
+line-height: 1.4; 
+}
+#blog-end {
+    
+}
+h4{
+font-size: 32px;
+font-weight: 700;
+margin: 0px 0px 0px 10px;
+}
+h5{
+font-size: 64px;
+font-weight: 700;
+margin: 0px 0px 0px 0px;
+}
+.red {
+background-color: #f2545b;
+padding: 0px 10px;
+position: relative;
+color: #fff;
+}
+.blue {
+background-color: #324376;
+padding: 0px 5px;
+color: white;
+}
+.well {
+border-radius: 2px;
+background-color: #f8f8f8;
+}
+.well h2{
+margin-top: 0px;
+}
+.form-control {
+border-radius: 2px;
+}

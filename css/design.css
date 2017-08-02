@@ -69,10 +69,10 @@ body {
     color: white;
 }
 .white {
-    background-color: #fff;
+    background-color: #f2545b;
     padding: 0px 10px;
     position: relative;
-    color: #324376;
+    color: #fff;
 }
 .block-three {
     margin-top: -100px;
