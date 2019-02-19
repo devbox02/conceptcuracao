@@ -2,7 +2,7 @@
 # Site settings
 title: Concept Curacao
 description:
-baseurl: "/conceptcuracao/" #
+baseurl: "" #
 url: "http://conceptcuracao.com" #
 
 # Build settings
