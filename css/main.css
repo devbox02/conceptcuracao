@@ -3622,7 +3622,7 @@ html.no-csstransitions .home-content__main {
   background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 23%, rgba(11,117,210,1) 53%, rgba(46,49,146,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2.8rem;
+  font-size: 2.8rem !important;
   margin-top: 1.8rem;
 }
 #s-contact .section-intro p {
