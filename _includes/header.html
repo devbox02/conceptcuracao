@@ -1,41 +1,56 @@
 <!-- Navigation -->
-<nav class="navbar navbar-defaut navbar-fixed-top" role="navigation">
-		<div class="container-fluid sides">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="{{site.url}}"><img src="{{site.url}}/images/brand.png" class="brand-logo"></a>
+<header class="s-header">
 
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-								<li>
-										<a href="{{site.url}}/webdesign">WEBDESIGN</a>
-								</li>
-								<li>
-										<a href="{{site.url}}/marketing">MARKETING</a>
-								</li>
-								<li>
-										<a href="{{site.url}}/portfolio">PORTFOLIO</a>
-								</li>
-								<li>
-										<a href="{{site.url}}/contact">CONTACT</a>
-								</li>
-								<li>
-										<a href="{{site.url}}/blog">BLOG</a>
-								</li>
-								<li>
-										<a href="https://www.facebook.com/Conceptcuracao"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
-								</li>
-						</ul>
-				</div>
-				<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container -->
-</nav>
+	<div class="header-logo">
+		<a class="site-logo" href="index.html">
+			<img src="images/logo.svg" alt="Homepage">
+		</a>
+	</div> <!-- end header-logo -->
+
+	<nav class="header-nav">
+
+		<a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+		<h3>Navigate to</h3>
+
+		<div class="header-nav__content">
+			
+			<ul class="header-nav__list">
+				<li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+				<!--<li><a class="smoothscroll"  href="#about" title="about">Services</a></li>-->
+				<li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+				<li><a class="smoothscroll"  href="#works" title="works">Portfolio</a></li>
+				<li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+			</ul>
+
+			<p>We are a strategic marketing agency based in Curaçao.
+				We beautifull brand design content and websites.
+				Driven by market-research.</p>
+
+			<ul class="header-nav__social">
+				<li>
+					<a href="https://www.facebook.com/conceptcuracao/"><i class="fab fa-facebook"></i></a>
+				</li>
+				<!--<li>
+					<a href="#0"><i class="fab fa-twitter"></i></a>
+				</li>-->
+				<li>
+					<a href="https://www.instagram.com/conceptcuracao/"><i class="fab fa-instagram"></i></a>
+				</li>
+				<li>
+					<a href="#0"><i class="fab fa-behance"></i></a>
+				</li>
+				<!--<li>
+					<a href="#0"><i class="fab fa-dribbble"></i></a>
+				</li>-->
+			</ul>
+
+		</div> <!-- end header-nav__content -->
+
+	</nav> <!-- end header-nav -->
+
+	<a class="header-menu-toggle" href="#0">
+		<span class="header-menu-icon"></span>
+	</a>
+
+</header>

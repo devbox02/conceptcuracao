@@ -2,12 +2,10 @@
 # Site settings
 title: Concept Curacao
 description:
-baseurl: "" #
+baseurl: "/conceptcuracao/" #
 url: "http://conceptcuracao.com" #
 
 # Build settings
 markdown: kramdown
 
 # Gems
-gems:
-  - amp-jekyll
