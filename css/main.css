@@ -3619,7 +3619,11 @@ html.no-csstransitions .home-content__main {
   margin-top: 1.8rem;
 }
 #s-contact .section-intro h5 {
-	color: #2e3192;
+  background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 23%, rgba(11,117,210,1) 53%, rgba(46,49,146,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.8rem;
+  margin-top: 1.8rem;
 }
 #s-contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
