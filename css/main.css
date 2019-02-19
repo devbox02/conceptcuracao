@@ -3612,18 +3612,20 @@ html.no-csstransitions .home-content__main {
  #s-contact {
 	background: #121212;
 	padding-top: 5rem;
-	padding-bottom: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
 }
 #s-contact .section-intro h1 {
   color: white;
   margin-top: 1.8rem;
 }
 #s-contact .section-intro h5 {
-  background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 23%, rgba(11,117,210,1) 53%, rgba(46,49,146,1) 100%);
+  background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 15%, rgba(11,117,210,1) 40%, rgba(46,49,146,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2.8rem !important;
+  font-size: 4rem;
   margin-top: 1.8rem;
+  font-weight: 600;
 }
 #s-contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
