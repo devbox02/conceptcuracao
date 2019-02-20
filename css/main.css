@@ -2842,7 +2842,7 @@ html.no-csstransitions .home-content__main {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
-
+/*
   .process h4 {
     padding-left: 6rem;
   }
@@ -2853,7 +2853,7 @@ html.no-csstransitions .home-content__main {
     width: 42px;
     line-height: 42px;
     top: -4px;
-  }
+  }*/
 
   .item-process:nth-child(n) {
     padding: 0 10px;
@@ -2865,14 +2865,14 @@ html.no-csstransitions .home-content__main {
   .process h4 {
     padding-left: 5.8rem;
   }
-
+/*
   .process h4::before {
     font-size: 1.6rem;
     height: 39px;
     width: 39px;
     line-height: 39px;
     top: -5px;
-  }
+  }*/
 
   .item-process:nth-child(n) {
     padding: 0;
