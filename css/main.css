@@ -2862,10 +2862,10 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:400px) {
-  .process h4 {
+/*  .process h4 {
     padding-left: 5.8rem;
   }
-/*
+
   .process h4::before {
     font-size: 1.6rem;
     height: 39px;
