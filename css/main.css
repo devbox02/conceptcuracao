@@ -3021,14 +3021,15 @@ html.no-csstransitions .home-content__main {
   background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 15%, rgba(11,117,210,1) 40%, rgba(46,49,146,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  font-size: 6rem;
+  font-size: 3rem;
   margin-top: 1.8rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .s-works h1 {
   color: #ffffff;
   font-size: 3rem;
+  margin-top: 2rem;
 }
 
 .s-works::before {
@@ -3081,6 +3082,8 @@ html.no-csstransitions .home-content__main {
 .item-folio {
   position: relative;
   overflow: hidden;
+  color: #121212;
+  border: 1px solid;
 }
 
 .item-folio__thumb img {
@@ -3251,7 +3254,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1000px) {
   .s-works {
-    padding-top: 15rem;
+    padding-top: 12rem;
     padding-bottom: 15rem;
   }
 
@@ -3267,7 +3270,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-works {
-    padding-top: 12rem;
+    padding-top: 6rem;
   }
 
   .masonry-wrap {
@@ -3642,17 +3645,19 @@ html.no-csstransitions .home-content__main {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-#s-contact .section-intro h1 {
+#s-contact .section-intro h2 {
   color: white;
   margin-top: 1.8rem;
+  font-size: 3rem;
+  margin-top: 2rem;
 }
 #s-contact .section-intro h5 {
   background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 15%, rgba(11,117,210,1) 40%, rgba(46,49,146,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 6rem;
+  font-size: 3rem;
   margin-top: 1.8rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 #s-contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
