@@ -1434,6 +1434,7 @@ body.menu-is-open {
   letter-spacing: -0.03rem;
   margin-top: 0;
   margin-bottom: 4.8rem;
+  color: #121212;
 }
 
 .subhead {
@@ -2132,6 +2133,10 @@ body.menu-is-open {
   margin-bottom: 0;
 }
 
+.home-content h2 {
+  margin-top: 1.8rem;
+}
+
 .home-content h3 {
   margin-top: 1.2rem;
   font-family: "Nunito Sans", sans-serif;
@@ -2145,6 +2150,10 @@ body.menu-is-open {
 .home-content__main {
   position: relative;
   text-align: center;
+}
+
+.home-content__main img{
+  max-width: 80%;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2583,6 +2592,10 @@ html.no-csstransitions .home-content__main {
     display: none;
   }
 
+  .home-content__main img{
+    max-width: 100%;
+  }
+
 }
 
 @media only screen and (max-width:800px) {
@@ -2999,9 +3012,23 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
   position: relative;
+  background: #111111;
+}
+.s-works h3 {
+  background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 15%, rgba(11,117,210,1) 40%, rgba(46,49,146,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  margin-top: 1.8rem;
+  font-weight: 600;
+}
+
+.s-works h1 {
+  color: #ffffff;
+  font-size: 3rem;
 }
 
 .s-works::before {
@@ -3016,17 +3043,16 @@ html.no-csstransitions .home-content__main {
   width: 50%;
   height: 100%;
   opacity: .3;
-  background-color: rgba(0, 0, 0, 0.9);
-  background-image: url(../images/pattern.jpg);
-  background-size: 760px 380px;
+  background: transparent;
+
 }
 
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
 .masonry-wrap {
-  margin-top: 7.2rem;
-  max-width: 1100px;
+  margin-top: 2rem;
+  max-width: 1200px;
   position: relative;
 }
 
@@ -3044,7 +3070,7 @@ html.no-csstransitions .home-content__main {
 
 .masonry .grid-sizer,
 .masonry__brick {
-  width: 50%;
+  width: 25%;
 }
 
 .masonry__brick {
@@ -3614,6 +3640,7 @@ html.no-csstransitions .home-content__main {
 	padding-top: 5rem;
   padding-bottom: 5rem;
   text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 #s-contact .section-intro h1 {
   color: white;
@@ -3623,7 +3650,7 @@ html.no-csstransitions .home-content__main {
   background: linear-gradient(to right, rgba(82,206,255,1) 0%, rgba(0,170,255,1) 15%, rgba(11,117,210,1) 40%, rgba(46,49,146,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 4rem;
+  font-size: 6rem;
   margin-top: 1.8rem;
   font-weight: 600;
 }

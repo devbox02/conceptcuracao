@@ -3,7 +3,7 @@
 title: Concept Curacao
 description:
 baseurl: "" #
-url: "https://conceptcuracao.com" #
+url: "/conceptcuracao" #
 
 # Build settings
 markdown: kramdown
