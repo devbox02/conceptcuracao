@@ -2770,7 +2770,7 @@ html.no-csstransitions .home-content__main {
  * ## about process
  * ------------------------------------------------------------------- */
 .process {
-  margin-top: 6.6rem;
+  margin-top: 3rem;
   counter-reset: ctr;
 }
 
