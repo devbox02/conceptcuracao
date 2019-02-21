@@ -2238,7 +2238,7 @@ body.menu-is-open {
 }
 
 .home-content__button .btn:not(.btn--primary) {
-  background-color: #13161b;
+  background-color: #121212;
   border-color: #13161b;
   color: #FFFFFF;
 }
@@ -2759,6 +2759,13 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
+.s-about2 {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pricing-content {
+  color: #ffffff;
+}
 /* ------------------------------------------------------------------- 
  * ## about process
  * ------------------------------------------------------------------- */
@@ -2826,8 +2833,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1000px) {
   .s-about {
-    padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .item-process:nth-child(n) {
@@ -2839,8 +2846,8 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-about {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 /*
   .process h4 {
